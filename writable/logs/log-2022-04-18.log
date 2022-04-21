@@ -1,0 +1,1374 @@
+CRITICAL - 2022-04-18 18:13:13 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\spark(45): require('C:\\Users\\ferna\\...')
+#4 {main}
+CRITICAL - 2022-04-18 18:19:34 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\spark(45): require('C:\\Users\\ferna\\...')
+#4 {main}
+CRITICAL - 2022-04-18 11:54:56 --> Undefined constant "App\Controllers\jwtKey"
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 11:55:35 --> Undefined constant "App\Controllers\jwtKey"
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 11:55:54 --> Undefined constant "App\Controllers\jwtKey"
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 11:56:52 --> Undefined variable $config
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\ferna\\...', 12)
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#6 {main}
+CRITICAL - 2022-04-18 11:57:31 --> Array callback must have exactly two elements
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 11:57:54 --> Array callback must have exactly two elements
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 11:58:05 --> Array callback must have exactly two elements
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 11:58:06 --> Array callback must have exactly two elements
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 11:58:29 --> Array callback must have exactly two elements
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 11:58:34 --> Array callback must have exactly two elements
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 12:01:10 --> Array callback must have exactly two elements
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 12:01:22 --> Array callback must have exactly two elements
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 12:04:34 --> Class "App\Controllers\Exception" not found
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 12:05:46 --> Class "App\Controllers\Exception" not found
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 12:06:25 --> Class "App\Controllers\Exception" not found
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 12:09:29 --> Class "App\Controllers\Exception" not found
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 12:09:36 --> Class "App\Controllers\Exception" not found
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 12:09:52 --> Class "App\Controllers\Exception" not found
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 12:09:56 --> Class "App\Controllers\Exception" not found
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 12:10:03 --> Class "App\Controllers\Exception" not found
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 12:10:11 --> Class "App\Controllers\Exception" not found
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 12:10:53 --> Class "App\Controllers\Exception" not found
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 12:12:25 --> Class "App\Controllers\Exception" not found
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 12:12:51 --> Class "App\Controllers\Exception" not found
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 12:12:55 --> Class "App\Controllers\Exception" not found
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 12:43:45 --> Undefined variable $usersModel
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Auth.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\ferna\\...', 14)
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Auth->__construct()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#6 {main}
+CRITICAL - 2022-04-18 12:43:55 --> Undefined variable $usersModel
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Auth.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\ferna\\...', 14)
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Auth->__construct()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#6 {main}
+CRITICAL - 2022-04-18 13:10:22 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\ferna\\...')
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#8 {main}
+CRITICAL - 2022-04-18 13:10:26 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\ferna\\...')
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#8 {main}
+CRITICAL - 2022-04-18 13:10:34 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\ferna\\...')
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#8 {main}
+CRITICAL - 2022-04-18 13:12:02 --> Call to undefined function App\Controllers\vardump()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+ERROR - 2022-04-18 13:29:34 --> Duplicate entry 'testing' for key 'username'
+ERROR - 2022-04-18 13:29:39 --> Duplicate entry 'testing' for key 'username'
+ERROR - 2022-04-18 13:30:20 --> Duplicate entry 'testing2' for key 'username'
+ERROR - 2022-04-18 13:30:23 --> Duplicate entry 'testing2' for key 'username'
+ERROR - 2022-04-18 13:30:53 --> Duplicate entry 'testing2' for key 'username'
+ERROR - 2022-04-18 13:31:04 --> Duplicate entry 'testing2' for key 'username'
+ERROR - 2022-04-18 13:34:48 --> Duplicate entry 'testing2' for key 'username'
+ERROR - 2022-04-18 13:34:53 --> Duplicate entry 'testing3' for key 'username'
+CRITICAL - 2022-04-18 13:36:31 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+ERROR - 2022-04-18 13:36:35 --> Duplicate entry '' for key 'telepon'
+CRITICAL - 2022-04-18 13:44:27 --> CodeIgniter\Validation\Rules::is_unique(): Argument #2 ($field) must be of type string, null given, called in C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Validation\Validation.php on line 291
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Validation\Validation.php(291): CodeIgniter\Validation\Rules->is_unique('testing2', NULL)
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'testing2', Array, Array)
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Auth.php(36): CodeIgniter\Model->insert(Array)
+#6 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#7 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#11 {main}
+CRITICAL - 2022-04-18 13:45:00 --> CodeIgniter\Validation\Rules::is_unique(): Argument #2 ($field) must be of type string, null given, called in C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Validation\Validation.php on line 291
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Validation\Validation.php(291): CodeIgniter\Validation\Rules->is_unique('testing2', NULL)
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'testing2', Array, Array)
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Auth.php(36): CodeIgniter\Model->insert(Array)
+#6 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#7 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#11 {main}
+CRITICAL - 2022-04-18 13:45:45 --> CodeIgniter\Validation\Rules::is_unique(): Argument #2 ($field) must be of type string, null given, called in C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Validation\Validation.php on line 291
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Validation\Validation.php(291): CodeIgniter\Validation\Rules->is_unique('testing2', NULL)
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'testing2', Array, Array)
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Auth.php(36): CodeIgniter\Model->insert(Array)
+#6 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#7 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#11 {main}
+CRITICAL - 2022-04-18 13:45:58 --> CodeIgniter\Validation\Rules::is_unique(): Argument #2 ($field) must be of type string, null given, called in C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Validation\Validation.php on line 291
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Validation\Validation.php(291): CodeIgniter\Validation\Rules->is_unique('testing2', NULL)
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'testing2', Array, Array)
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Auth.php(36): CodeIgniter\Model->insert(Array)
+#6 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#7 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#11 {main}
+CRITICAL - 2022-04-18 13:46:32 --> CodeIgniter\Validation\Rules::is_unique(): Argument #2 ($field) must be of type string, null given, called in C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Validation\Validation.php on line 291
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Validation\Validation.php(291): CodeIgniter\Validation\Rules->is_unique('testing2', NULL)
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'testing2', Array, Array)
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Auth.php(36): CodeIgniter\Model->insert(Array)
+#6 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#7 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#11 {main}
+CRITICAL - 2022-04-18 13:46:51 --> CodeIgniter\Validation\Rules::is_unique(): Argument #2 ($field) must be of type string, null given, called in C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Validation\Validation.php on line 291
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Validation\Validation.php(291): CodeIgniter\Validation\Rules->is_unique('testing2', NULL)
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'testing2', Array, Array)
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Auth.php(37): CodeIgniter\Model->insert(Array)
+#6 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#7 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#11 {main}
+CRITICAL - 2022-04-18 13:46:57 --> CodeIgniter\Validation\Rules::is_unique(): Argument #2 ($field) must be of type string, null given, called in C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Validation\Validation.php on line 291
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Validation\Validation.php(291): CodeIgniter\Validation\Rules->is_unique('testing2', NULL)
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'testing2', Array, Array)
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Auth.php(36): CodeIgniter\Model->insert(Array)
+#6 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#7 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#11 {main}
+CRITICAL - 2022-04-18 13:47:26 --> CodeIgniter\Validation\Rules::is_unique(): Argument #2 ($field) must be of type string, null given, called in C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Validation\Validation.php on line 291
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Validation\Validation.php(291): CodeIgniter\Validation\Rules->is_unique('testing2', NULL)
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'testing2', Array, Array)
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Auth.php(36): CodeIgniter\Model->insert(Array)
+#6 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#7 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#11 {main}
+CRITICAL - 2022-04-18 13:47:51 --> CodeIgniter\Validation\Rules::is_unique(): Argument #2 ($field) must be of type string, null given, called in C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Validation\Validation.php on line 291
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Validation\Validation.php(291): CodeIgniter\Validation\Rules->is_unique('testing2', NULL)
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'testing2', Array, Array)
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Auth.php(36): CodeIgniter\Model->insert(Array)
+#6 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#7 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#11 {main}
+CRITICAL - 2022-04-18 13:48:30 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 13:49:16 --> CodeIgniter\Validation\Rules::is_unique(): Argument #2 ($field) must be of type string, null given, called in C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Validation\Validation.php on line 291
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Validation\Validation.php(291): CodeIgniter\Validation\Rules->is_unique('testing3', NULL)
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'testing3', Array, Array)
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Auth.php(36): CodeIgniter\Model->insert(Array)
+#6 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#7 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#11 {main}
+CRITICAL - 2022-04-18 13:50:48 --> CodeIgniter\Validation\Rules::is_unique(): Argument #2 ($field) must be of type string, null given, called in C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Validation\Validation.php on line 291
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Validation\Validation.php(291): CodeIgniter\Validation\Rules->is_unique('testing3', NULL)
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'testing3', Array, Array)
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Auth.php(36): CodeIgniter\Model->insert(Array)
+#6 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#7 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#11 {main}
+CRITICAL - 2022-04-18 13:51:38 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+ERROR - 2022-04-18 13:52:02 --> Duplicate entry 'testing3' for key 'username'
+CRITICAL - 2022-04-18 13:52:17 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+ERROR - 2022-04-18 13:53:57 --> Duplicate entry 'testing1' for key 'username'
+ERROR - 2022-04-18 13:54:01 --> Duplicate entry '081244448888' for key 'telepon'
+ERROR - 2022-04-18 13:55:45 --> Duplicate entry 'testing3' for key 'username'
+ERROR - 2022-04-18 13:56:27 --> Duplicate entry 'testing4' for key 'username'
+CRITICAL - 2022-04-18 14:04:38 --> Unclosed '{' on line 8
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\ferna\\...')
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#8 {main}
+CRITICAL - 2022-04-18 14:05:01 --> Unclosed '{' on line 8
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\ferna\\...')
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#8 {main}
+CRITICAL - 2022-04-18 14:05:28 --> Unclosed '{' on line 8
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\ferna\\...')
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#8 {main}
+CRITICAL - 2022-04-18 14:07:37 --> Silahkan masukkan email dan password
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:14:38 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:14:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:15:12 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Model.php on line 728
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('testing1')
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Auth.php(65): CodeIgniter\Model->__call('get', Array)
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#7 {main}
+CRITICAL - 2022-04-18 14:15:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:15:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:16:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:16:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:16:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:16:15 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:16:21 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:16:30 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:16:41 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:16:51 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:19:40 --> Call to a member function where() on array
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:21:51 --> Call to a member function first() on array
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:43:29 --> Call to undefined function App\Controllers\tokenAuth()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:43:44 --> Call to undefined function App\Controllers\tokenAuth()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:44:06 --> Call to undefined function App\Controllers\tokenAuth()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:44:19 --> Call to undefined function App\Controllers\tokenAuth()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:44:48 --> Call to undefined function App\Controllers\tokenAuth()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:45:07 --> Call to undefined function App\Controllers\tokenAuth()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:45:23 --> Call to undefined function App\Controllers\tokenAuth()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:45:23 --> Call to undefined function App\Controllers\tokenAuth()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:45:25 --> Call to undefined function App\Controllers\tokenAuth()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:45:44 --> Call to undefined function App\Controllers\tokenAuth()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:45:58 --> Call to undefined function App\Controllers\tokenAuth()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->cekSaldo()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:46:31 --> Call to undefined function App\Controllers\tokenAuth()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:46:44 --> Call to undefined function App\Controllers\tokenAuth()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:48:03 --> Call to undefined function App\Controllers\tokenAuth()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:48:21 --> Call to undefined function App\Controllers\tokenAuth()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:48:32 --> Call to undefined function App\Controllers\tokenAuth()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:48:43 --> Call to undefined function App\Controllers\tokenAuth()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:49:53 --> Call to undefined function App\Controllers\tokenAuth()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:50:39 --> Call to undefined function App\Controllers\tokenAuth()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:50:47 --> Call to undefined function App\Controllers\tokenAuth()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:50:48 --> Call to undefined function App\Controllers\tokenAuth()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:51:28 --> Call to undefined function App\Controllers\tokenAuth()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:52:11 --> Call to undefined function App\Controllers\tokenAuth()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:52:21 --> Call to undefined function App\Controllers\tokenAuth()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:52:27 --> Call to undefined function App\Controllers\tokenAuth()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:52:31 --> Call to undefined function App\Controllers\tokenAuth()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:55:13 --> Silahkan masukkan token
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->cekSaldo()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:55:25 --> Unclosed '{' on line 11
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\ferna\\...')
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#8 {main}
+CRITICAL - 2022-04-18 14:55:53 --> Silahkan masukkan token
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->cekSaldo()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 14:57:54 --> Unclosed '{' on line 11
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\ferna\\...')
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#8 {main}
+CRITICAL - 2022-04-18 14:59:21 --> Call to undefined function App\Controllers\tokenAuth()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:00:27 --> Call to undefined function App\Controllers\tokenAuth()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:00:32 --> Call to undefined function App\Controllers\tokenAuth()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:01:46 --> Call to undefined function App\Controllers\tokenAuth()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:01:54 --> Call to undefined function App\Controllers\tokenAuth()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:05:36 --> Call to undefined function App\Controllers\tokenAuth()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:05:42 --> Call to undefined function App\Controllers\tokenAuth()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:10:29 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->cekSaldo()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:14:06 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->cekSaldo()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:14:20 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->cekSaldo()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:14:31 --> Array to string conversion
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Transaksi.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\Users\\ferna\\...', 27)
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->cekSaldo()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#6 {main}
+CRITICAL - 2022-04-18 15:14:40 --> Array to string conversion
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Transaksi.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\Users\\ferna\\...', 27)
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->cekSaldo()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#6 {main}
+CRITICAL - 2022-04-18 15:23:36 --> Call to a member function where() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:25:41 --> Call to a member function where() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:26:03 --> Call to a member function where() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:26:41 --> Call to a member function where() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:26:54 --> Call to a member function where() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:27:04 --> Call to a member function where() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:30:40 --> Call to a member function where() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:31:42 --> Call to a member function update() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:32:13 --> Call to a member function where() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:32:49 --> syntax error, unexpected token "echo"
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\ferna\\...')
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#8 {main}
+CRITICAL - 2022-04-18 15:34:36 --> Call to a member function update() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:36:35 --> Call to a member function save() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:37:37 --> Call to a member function save() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:38:02 --> Call to a member function save() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:38:13 --> Call to a member function save() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:40:14 --> Call to a member function save() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:40:30 --> Call to a member function save() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:40:30 --> Call to a member function save() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:41:20 --> Call to a member function save() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:41:25 --> Call to a member function save() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:41:37 --> Call to a member function save() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:42:09 --> Call to a member function save() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:43:14 --> Call to a member function save() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:43:42 --> Call to a member function save() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:45:38 --> Call to a member function save() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:48:02 --> Call to a member function set() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:48:03 --> Call to a member function set() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:48:04 --> Call to a member function set() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:48:06 --> Call to a member function set() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:50:07 --> Call to a member function set() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:50:29 --> Call to a member function set() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:50:56 --> Call to a member function set() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:51:15 --> Call to a member function set() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:51:51 --> Call to a member function where() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 15:52:27 --> Call to a member function set() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 19:57:39 --> Call to a member function set() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 20:00:34 --> Call to a member function where() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 20:01:15 --> Call to a member function where() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 20:01:27 --> Call to a member function where() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 20:14:30 --> Call to a member function update_by() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 20:14:36 --> Call to a member function update_by() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 20:19:17 --> Call to a member function where() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 20:20:19 --> Call to a member function where() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 20:21:25 --> Call to a member function update() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 20:21:36 --> Call to a member function update() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 20:22:56 --> Call to a member function update() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 20:23:08 --> Call to a member function update() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 20:23:18 --> Call to a member function update() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 20:26:55 --> Call to a member function where() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 20:28:02 --> Call to a member function where() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 20:28:06 --> Call to a member function where() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 20:28:18 --> Call to a member function where() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 20:28:42 --> Call to a member function where() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 20:28:45 --> Call to a member function where() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Transaksi->topUp()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+ERROR - 2022-04-18 20:34:20 --> Unknown column 'users.deleted_at' in 'where clause'
+CRITICAL - 2022-04-18 20:34:20 --> Call to a member function getResult() on bool
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\app\Helpers\JwtValidation_helper.php(42): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Transaksi.php(18): tokenAuth()
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#8 {main}
+ERROR - 2022-04-18 20:34:23 --> Unknown column 'users.deleted_at' in 'where clause'
+CRITICAL - 2022-04-18 20:34:23 --> Call to a member function getResult() on bool
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\app\Helpers\JwtValidation_helper.php(42): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Transaksi.php(18): tokenAuth()
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#8 {main}
+CRITICAL - 2022-04-18 21:43:37 --> Call to a member function setJSON() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 21:44:06 --> Call to a member function setJSON() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 21:44:26 --> Call to a member function setJSON() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 21:44:33 --> Call to a member function setJSON() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 21:45:26 --> Call to a member function setJSON() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 21:45:35 --> Call to a member function setJSON() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 21:45:39 --> Call to a member function setJSON() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 21:46:51 --> Call to a member function setJSON() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 21:47:18 --> Call to a member function setJSON() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 21:48:22 --> Call to undefined function App\Controllers\setJSON()
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 21:48:28 --> Call to a member function setJSON() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 21:48:41 --> Call to a member function setJSON() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 21:48:48 --> Call to a member function setJSON() on null
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#5 {main}
+CRITICAL - 2022-04-18 21:49:28 --> Array to string conversion
+#0 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Transaksi.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\Users\\ferna\\...', 20)
+#1 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(809): App\Controllers\Transaksi->__construct()
+#2 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ferna\OneDrive\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ferna\\...')
+#6 {main}
