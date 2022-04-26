@@ -58,7 +58,7 @@ token
 ![](dokum01/token.jpg)
 
 ### parameter 
-tidak ada
+{jumlah}
 
 ### output postman
 ![](dokum01/topup.jpg)
