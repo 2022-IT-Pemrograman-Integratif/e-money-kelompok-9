@@ -38,7 +38,7 @@ tidak ada
 tidak ada 
 
 ### parameter 
-{username, telpon}
+{telepon, password}
 
 ### output postman
 ![](dokum01/login.jpg)
@@ -58,7 +58,7 @@ token
 ![](dokum01/token.jpg)
 
 ### parameter 
-{jumlah}
+{jumlah, telepon}
 
 ### output postman
 ![](dokum01/topup.jpg)
@@ -95,7 +95,7 @@ tidak ada
 token
 
 ### parameter 
-{telepon, jumlah}
+{telepon tujuan, jumlah}
 
 ### output postman
 ![](dokum01/transfer.jpg)
