@@ -6,6 +6,8 @@
 2. Brilianti Puspita S ari - 5027201070
 3. Adinda Putri Audyna - 5027201073
 
+URL API: http://fp-payphone.herokuapp.com/public/
+
 ## Register
 
 ### Method
