@@ -97,7 +97,7 @@ tidak ada
 token
 
 ### parameter 
-{telepon tujuan, jumlah}
+{telepon, jumlah, emoney}
 
 ### output postman
 ![](dokum01/transfer.jpg)
